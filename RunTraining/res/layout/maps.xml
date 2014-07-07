@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maps">
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+    
+    <Button
+        android:id="@+id/botonEmpezar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="28dp"
+        android:text="@string/butEntrena" />
+
+    <Button
+        android:id="@+id/botonFinalizar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/botonEmpezar"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/distanciaRecorrida"
+        android:layout_marginTop="18dp"
+        android:text="@string/butFinalEntrena" />
+
+    <TextView
+        android:id="@+id/cuentaAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/botonFinalizar"
+        android:layout_below="@+id/botonFinalizar"
+        android:layout_marginTop="44dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/distanciaRecorrida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/botonEmpezar"
+        android:layout_alignLeft="@+id/botonEmpezar"
+        android:layout_marginBottom="24dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/objetivo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/distanciaRecorrida"
+        android:layout_alignLeft="@+id/distanciaRecorrida"
+        android:layout_marginBottom="30dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</RelativeLayout>

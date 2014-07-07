@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo"
+    >
+
+ <TextView
+     android:id="@+id/primerEntrenamiento"
+     android:name="@+string/primerEntrenamiento"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_centerVertical="true"
+     android:layout_marginLeft="26dp"
+     android:shadowColor="#FF8000"
+     android:shadowDx="3"
+     android:shadowDy="2"
+     android:shadowRadius="1.8"
+     android:text="@string/primerEntrenamiento"
+     android:textColor="#FF0000"
+     android:textSize="25sp" />
+
+ <ImageButton
+     android:id="@+id/EntrenamientoBoton"
+     style="@style/AppBaseTheme"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignRight="@+id/primerEntrenamiento"
+     android:layout_below="@+id/primerEntrenamiento"
+     android:layout_marginRight="16dp"
+     android:layout_marginTop="30dp"
+     android:background="@drawable/flecha"
+     android:contentDescription="@string/hello_world" />
+    
+</RelativeLayout>

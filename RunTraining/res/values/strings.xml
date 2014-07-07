@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RunTraining</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about_app">About App</string>
+    <string name="primerEntrenamiento">Mi primer Entrenamiento!!</string>
+    <string name="miPos">Mi posición</string>
+    <string name="butEntrena">¡Empecemos!</string>
+    <string name="butFinalEntrena">¡Acabar entrenamiento!</string>
+	<string name="salir">Salir</string>
+	<string name="vacio"></string>
+</resources>
